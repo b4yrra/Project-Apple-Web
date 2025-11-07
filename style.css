@@ -666,3 +666,25 @@ p {
     margin-top: 20px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .url {
+    background-image: url(./16prodesktop.jpg);
+  }
+
+  .url1 {
+    background-image: url(./16desktop.jpg);
+  }
+
+  .url2 {
+    background-image: url(./magic.jpg);
+  }
+
+  .magic::after {
+    content: "Gift magic.";
+  }
+
+  .magic img {
+    display: none;
+  }
+}
