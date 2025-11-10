@@ -14,6 +14,19 @@
   gap: 12px;
 }
 
+.middle-menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  list-style-type: none;
+}
+
 .frame45 {
   width: 100%;
   height: 121px;
@@ -124,6 +137,11 @@
   background-image: url(./16promobile.jpg);
 }
 
+.url-magic {
+  display: none;
+  background-image: url(./magic.jpg);
+}
+
 .frame24 {
   display: flex;
   flex-direction: column;
@@ -136,6 +154,11 @@
 }
 
 .pos {
+  display: flex;
+  justify-content: end;
+}
+
+.pos3 {
   display: flex;
   justify-content: end;
 }
@@ -235,12 +258,37 @@ p {
   color: white;
 }
 
+.applybutton {
+  display: flex;
+  width: 112px;
+  height: 40px;
+  padding: 10px 16px;
+  gap: 10px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+}
+
+.apply {
+  width: 80px;
+  height: 20px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2997ff;
+}
+
 .url1 {
   background-image: url(./16mobile.jpg);
 }
 
 .url2 {
   background-image: url(./ipadlogo.jpg);
+}
+
+.section-url2 {
+  display: none;
+  background-image: url(./ipaddesktop.jpg);
 }
 
 .frame24-1 img {
@@ -259,7 +307,7 @@ p {
   font-size: 14px;
   line-height: 18px;
   height: 18px;
-  background: linear-gradient(90deg, #0090f7, #ba62fc, #f24168, #f55600);
+  background: linear-gradient(270deg, #0090f7, #ba62fc, #f24168, #f55600);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -268,7 +316,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   gap: 12px;
 }
 
@@ -276,8 +323,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 390px;
   height: 500px;
+  width: 100%;
 }
 
 .urls1 {
@@ -302,6 +349,11 @@ p {
 
 .urls6 {
   background-image: url(./backgrounds6.jpg);
+}
+
+.urls7 {
+  display: none;
+  background-image: url(./carddesktop.jpg);
 }
 
 .wide-text {
@@ -382,6 +434,8 @@ p {
 .tabpanel {
   scroll-snap-align: center;
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 274px;
   height: 495px;
 }
@@ -457,11 +511,6 @@ p {
   animation: scroll-animation 30s linear infinite;
 }
 
-.apple-gallery:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
-
 .playbutton {
   display: flex;
   justify-content: center;
@@ -494,7 +543,6 @@ p {
   width: 238px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-position: center;
 }
 
@@ -533,7 +581,7 @@ p {
 @media screen and (min-width: 768px) {
   .size {
     width: 100%;
-    height: 4274px;
+    height: 3900px;
   }
 
   .header-text {
@@ -541,8 +589,8 @@ p {
     height: 16px;
   }
 
-  .text-height {
-    height: 170px;
+  .background {
+    height: 650px;
   }
 
   .url {
@@ -553,6 +601,10 @@ p {
     background-image: url(./16tablet.jpg);
   }
 
+  .url2 {
+    background-image: url(./ipadtablet.jpg);
+  }
+
   .frame24 {
     display: flex;
     justify-content: start;
@@ -560,17 +612,14 @@ p {
   }
 
   .backgrounds {
-    width: 366px;
     height: 490px;
   }
 
   .frame27 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 1494px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .pos {
@@ -667,7 +716,38 @@ p {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
+  .size {
+    height: 4600px;
+  }
+
+  .overlay {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .middle-menu {
+    display: flex;
+  }
+
+  .header-text {
+    width: 680px;
+    height: 20px;
+  }
+
+  .background {
+    height: 600px;
+  }
+
+  .backgrounds {
+    height: 580px;
+  }
+
+  .buttonmenu {
+    display: none;
+  }
+
   .url {
     background-image: url(./16prodesktop.jpg);
   }
@@ -676,15 +756,140 @@ p {
     background-image: url(./16desktop.jpg);
   }
 
+  .url-magic {
+    display: block;
+  }
+
   .url2 {
-    background-image: url(./magic.jpg);
-  }
-
-  .magic::after {
-    content: "Gift magic.";
-  }
-
-  .magic img {
     display: none;
+  }
+
+  .section-url2 {
+    display: block;
+  }
+
+  .color-text {
+    padding-top: 300px;
+  }
+
+  .pos {
+    height: 500px;
+  }
+
+  .urls4 {
+    display: none;
+  }
+
+  .footer-section {
+    margin-top: 20px;
+    height: 300px;
+  }
+
+  .apple-gallery {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    height: 236px;
+    width: 3500px;
+  }
+
+  .gallery {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 417px;
+    height: 236px;
+  }
+
+  .list {
+    height: 668px;
+  }
+
+  .frame44 {
+    display: flex;
+    width: 14000px;
+    height: 668px;
+    gap: 20px;
+  }
+
+  .tabpanel {
+    width: 1250px;
+    height: 668px;
+  }
+
+  .playbutton {
+    width: 40px;
+    height: 40px;
+    background-color: #d2d2d7;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .play-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .frame27 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .tablist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    margin-top: 10px;
+  }
+
+  .urls1 {
+    background-image: url(./airpoddesktop.jpg);
+  }
+
+  .change-header {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+
+  .change-header::after {
+    content: "AirPods Pro 2";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+
+  .change-text {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+
+  .change-text::after {
+    content: "Now with a Hearing Aid features.2";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+
+  .urls2 {
+    background-image: url(./watchdeskop.jpg);
+  }
+
+  .urls3 {
+    background-image: url(./macbookdesktop.jpg);
+  }
+
+  .urls5 {
+    display: none;
+  }
+
+  .urls7 {
+    display: block;
+  }
+
+  .urls6 {
+    background-image: url(./tradedesktop.jpg);
   }
 }
