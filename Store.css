@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+}
+
+.middle-menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  list-style-type: none;
+}
+
+.frame45 {
+  width: 100%;
+  height: 121px;
+}
+
+.navglobal {
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 48px;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 48px;
+}
+
+.space-between {
+  display: flex;
+}
+
+.apple-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.buttonshop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.buttonsearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.buttonmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  gap: 5px;
+}
+
+.breadtop {
+  width: 14px;
+  height: 0px;
+  border-bottom: 1px solid black;
+}
+
+.breadbottom {
+  width: 14px;
+  height: 0px;
+  border-bottom: 1px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 50px;
+}
+
+.header-text {
+  display: flex;
+  text-align: center;
+  width: 328px;
+  height: 37px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.glowing-color {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 300px;
+}
+
+.glowing1 {
+  background-color: #019ffb;
+  filter: blur(20px);
+}
+
+.glowing2 {
+  background-color: #f55be4;
+  filter: blur(20px);
+}
+
+.glowing3 {
+  background-color: #e44cbb;
+  filter: blur(20px);
+}
+
+.glowing4 {
+  background-color: #fd8c1f;
+  filter: blur(20px);
+}
