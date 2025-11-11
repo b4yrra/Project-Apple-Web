@@ -11,6 +11,8 @@
   flex-direction: column;
   width: 100%;
   height: 1000px;
+  gap: 50px;
+  background-color: #f5f5f7;
 }
 
 .middle-menu {
@@ -98,9 +100,10 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   width: 100%;
-  height: 50px;
+  height: 73px;
+  background-color: white;
 }
 
 .header-text {
@@ -115,30 +118,54 @@
 }
 
 .glowing-color {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  height: 20px;
+  background-image: url(./store/glowing.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 300px;
 }
 
-.glowing1 {
-  background-color: #019ffb;
-  filter: blur(20px);
+.store {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  line-height: 1.0834933333;
 }
 
-.glowing2 {
-  background-color: #f55be4;
-  filter: blur(20px);
+.gift {
+  color: #1d1d1f;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  line-height: 1.1428571429;
+  max-width: 317px;
+  padding-bottom: 6px;
+  opacity: 60%;
 }
 
-.glowing3 {
-  background-color: #e44cbb;
-  filter: blur(20px);
+.shop-help {
+  padding-left: 20px;
 }
 
-.glowing4 {
-  background-color: #fd8c1f;
-  filter: blur(20px);
+.shop-help a {
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  line-height: 1.4285914286;
+  padding: 24px 0 10px;
+  text-decoration: none;
 }
