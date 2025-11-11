@@ -136,12 +136,12 @@
 }
 
 .url {
-  background-image: url(./16promobile.jpg);
+  background-image: url(img/16promobile.jpg);
 }
 
 .url-magic {
   display: none;
-  background-image: url(./magic.jpg);
+  background-image: url(img/magic.jpg);
 }
 
 .frame24 {
@@ -281,16 +281,16 @@ p {
 }
 
 .url1 {
-  background-image: url(./16mobile.jpg);
+  background-image: url(img/16mobile.jpg);
 }
 
 .url2 {
-  background-image: url(./ipadlogo.jpg);
+  background-image: url(img/ipadlogo.jpg);
 }
 
 .section-url2 {
   display: none;
-  background-image: url(./ipaddesktop.jpg);
+  background-image: url(img/ipaddesktop.jpg);
 }
 
 .frame24-1 img {
@@ -330,32 +330,32 @@ p {
 }
 
 .urls1 {
-  background-image: url(./backgrounds1.jpg);
+  background-image: url(img/backgrounds1.jpg);
 }
 
 .urls2 {
-  background-image: url(./backgrounds2.jpg);
+  background-image: url(img/backgrounds2.jpg);
 }
 
 .urls3 {
-  background-image: url(./backgrounds3.jpg);
+  background-image: url(img/backgrounds3.jpg);
 }
 
 .urls4 {
-  background-image: url(./backgrounds4.png);
+  background-image: url(img/backgrounds4.png);
 }
 
 .urls5 {
-  background-image: url(./backgrounds5.jpg);
+  background-image: url(img/backgrounds5.jpg);
 }
 
 .urls6 {
-  background-image: url(./backgrounds6.jpg);
+  background-image: url(img/backgrounds6.jpg);
 }
 
 .urls7 {
   display: none;
-  background-image: url(./carddesktop.jpg);
+  background-image: url(img/carddesktop.jpg);
 }
 
 .wide-text {
@@ -443,35 +443,35 @@ p {
 }
 
 .panel-url1 {
-  background-image: url(./movie1.jpg);
+  background-image: url(img/movie1.jpg);
 }
 
 .panel-url2 {
-  background-image: url(./movie2.jpg);
+  background-image: url(img/movie2.jpg);
 }
 
 .panel-url3 {
-  background-image: url(./movie3.jpg);
+  background-image: url(img/movie3.jpg);
 }
 
 .panel-url4 {
-  background-image: url(./movie4.jpg);
+  background-image: url(img/movie4.jpg);
 }
 
 .panel-url5 {
-  background-image: url(./movie5.jpg);
+  background-image: url(img/movie5.jpg);
 }
 
 .panel-url6 {
-  background-image: url(./movie6.jpg);
+  background-image: url(img/movie6.jpg);
 }
 
 .panel-url7 {
-  background-image: url(./movie7.jpg);
+  background-image: url(img/movie7.jpg);
 }
 
 .panel-url8 {
-  background-image: url(./movie8.jpg);
+  background-image: url(img/movie8.jpg);
 }
 
 .tablist {
@@ -553,35 +553,35 @@ p {
 }
 
 .photos1 {
-  background-image: url(./gallery1.png);
+  background-image: url(img/gallery1.png);
 }
 
 .photos2 {
-  background-image: url(./gallery2.png);
+  background-image: url(img/gallery2.png);
 }
 
 .photos3 {
-  background-image: url(./gallery3.png);
+  background-image: url(img/gallery3.png);
 }
 
 .photos4 {
-  background-image: url(./gallery4.png);
+  background-image: url(img/gallery4.png);
 }
 
 .photos5 {
-  background-image: url(./gallery1.png);
+  background-image: url(img/gallery1.png);
 }
 
 .photos6 {
-  background-image: url(./gallery2.png);
+  background-image: url(img/gallery2.png);
 }
 
 .photos7 {
-  background-image: url(./gallery3.png);
+  background-image: url(img/gallery3.png);
 }
 
 .photos8 {
-  background-image: url(./gallery4.png);
+  background-image: url(img/gallery4.png);
 }
 
 @media screen and (min-width: 768px) {
@@ -600,15 +600,15 @@ p {
   }
 
   .url {
-    background-image: url(./16protablet.jpg);
+    background-image: url(img/16protablet.jpg);
   }
 
   .url1 {
-    background-image: url(./16tablet.jpg);
+    background-image: url(img/16tablet.jpg);
   }
 
   .url2 {
-    background-image: url(./ipadtablet.jpg);
+    background-image: url(img/ipadtablet.jpg);
   }
 
   .frame24 {
@@ -660,35 +660,35 @@ p {
   }
 
   .panel-url1 {
-    background-image: url(./movies1.jpg);
+    background-image: url(img/movies1.jpg);
   }
 
   .panel-url2 {
-    background-image: url(./movies2.jpg);
+    background-image: url(img/movies2.jpg);
   }
 
   .panel-url3 {
-    background-image: url(./movies3.jpg);
+    background-image: url(img/movies3.jpg);
   }
 
   .panel-url4 {
-    background-image: url(./movies4.jpg);
+    background-image: url(img/movies4.jpg);
   }
 
   .panel-url5 {
-    background-image: url(./movies5.jpg);
+    background-image: url(img/movies5.jpg);
   }
 
   .panel-url6 {
-    background-image: url(./movies6.jpg);
+    background-image: url(img/movies6.jpg);
   }
 
   .panel-url7 {
-    background-image: url(./movies7.jpg);
+    background-image: url(img/movies7.jpg);
   }
 
   .panel-url8 {
-    background-image: url(./movies8.jpg);
+    background-image: url(img/movies8.jpg);
   }
 
   .footer-section {
@@ -756,11 +756,11 @@ p {
   }
 
   .url {
-    background-image: url(./16prodesktop.jpg);
+    background-image: url(img/16prodesktop.jpg);
   }
 
   .url1 {
-    background-image: url(./16desktop.jpg);
+    background-image: url(img/16desktop.jpg);
   }
 
   .url-magic {
@@ -819,7 +819,7 @@ p {
   }
 
   .tabpanel {
-    width: 1024px;
+    width: 1250px;
     height: 668px;
   }
 
@@ -856,7 +856,7 @@ p {
   }
 
   .urls1 {
-    background-image: url(./airpoddesktop.jpg);
+    background-image: url(img/airpoddesktop.jpg);
   }
 
   .change-header {
@@ -884,11 +884,11 @@ p {
   }
 
   .urls2 {
-    background-image: url(./watchdeskop.jpg);
+    background-image: url(img/watchdeskop.jpg);
   }
 
   .urls3 {
-    background-image: url(./macbookdesktop.jpg);
+    background-image: url(img/macbookdesktop.jpg);
   }
 
   .urls5 {
@@ -900,6 +900,6 @@ p {
   }
 
   .urls6 {
-    background-image: url(./tradedesktop.jpg);
+    background-image: url(img/tradedesktop.jpg);
   }
 }
