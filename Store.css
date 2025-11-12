@@ -337,6 +337,9 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.items img {
+}
+
 .url1 {
   background-image: url(./store/products/product-section-ip16pro.jpg);
 }
@@ -412,6 +415,7 @@ h3 {
 .product-texts {
   padding-top: 20px;
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 .product-texts h2 {
@@ -420,7 +424,7 @@ h3 {
 
 .items-main {
   border-radius: 20px;
-  width: 500px;
+  width: 309px;
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -468,6 +472,46 @@ h3 {
   align-items: center;
 }
 
+.padding-texts {
+  padding-top: 75px;
+}
+
+.urls-section {
+  background-image: url(./store/products/holiday.jpg);
+}
+
+.product-photo-section1 {
+  background-image: url(./store/products/case.jpg);
+}
+
+.product-photo-section12 {
+  background-image: url(./store/products/homepod.jpg);
+}
+
+.product-photo-section13 {
+  background-image: url(./store/products/ipadcase.jpg);
+}
+
+.product-photo-section14 {
+  background-image: url(./store/products/beats.jpg);
+}
+
+.product-photo-section15 {
+  background-image: url(./store/products/beats.jpg);
+}
+
+.product-photo-section2 {
+  background-image: url(./store/products/bag.jpg);
+}
+
+.product-photo-section22 {
+  background-image: url(./store/products/tradein.jpg);
+}
+
+.product-photo-section23 {
+  background-image: url(./store/products/black.jpg);
+}
+
 @media (min-width: 768px) {
   .main-text {
     display: flex;
@@ -502,7 +546,7 @@ h3 {
 
   .items {
     border-radius: 20px;
-    width: 400px;
+    width: 500px;
     height: 500px;
   }
 
@@ -518,15 +562,31 @@ h3 {
     height: 20px;
   }
 
+  .middle-menu {
+    display: flex;
+  }
+
   .main-text {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
+  .section-title {
+    padding-left: 140px;
+  }
+
+  .scroll {
+    padding-left: 140px;
+  }
+
+  .items {
+    width: 480px;
+    height: 500px;
+  }
+
   .section {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 140px;
   }
 
   .help-section {
