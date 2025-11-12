@@ -607,6 +607,56 @@ h3 {
   background-image: url(./store/products/saving5.jpg);
 }
 
+.footer {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+
+.footer-title {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.footer-link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 12px;
+}
+
+.link-border {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  padding: 6px 6px;
+  border-radius: 999px;
+  border: 1px solid #6e6e73;
+  text-align: center;
+}
+
+.footer-link--btn {
+  width: 85px;
+  height: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #6e6e73;
+}
+
 @media (min-width: 768px) {
   .main-text {
     display: flex;
@@ -666,6 +716,19 @@ h3 {
   .bar-box {
     height: 250px;
   }
+
+  .link-border {
+    width: 125px;
+    height: 40px;
+    padding: 10px 12px;
+  }
+
+  .footer-link--btn {
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -713,5 +776,9 @@ h3 {
 
   .product-lists {
     padding-left: 120px;
+  }
+
+  .footer {
+    padding-left: 140px;
   }
 }
