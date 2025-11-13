@@ -584,6 +584,16 @@ p {
   background-image: url(img/gallery4.png);
 }
 
+.store-button {
+  text-decoration: none;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  color: black;
+}
+
 @media screen and (min-width: 768px) {
   .size {
     width: 100%;
