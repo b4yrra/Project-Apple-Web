@@ -440,6 +440,7 @@ p {
   background-size: cover;
   width: 274px;
   height: 495px;
+  transition: all 3s ease;
 }
 
 .panel-url1 {
@@ -481,6 +482,7 @@ p {
   height: 10px;
   gap: 15px;
   margin-bottom: 10px;
+  transition: all 0.3s ease;
 }
 
 .tablist .items {
@@ -490,7 +492,7 @@ p {
   background-color: black;
   opacity: 42%;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .tablist .items:hover {
