@@ -538,8 +538,12 @@ p {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-70%);
+    transform: translateX(-50%);
   }
+}
+
+.overlay {
+  filter: brightness(0.7);
 }
 
 .gallery {
@@ -551,7 +555,10 @@ p {
 }
 
 .gallery:hover {
-  transform: translateX(0);
+  transition: all 1s ease;
+  transform: scale(1.1);
+  filter: brightness(0.7);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
 .photos1 {
